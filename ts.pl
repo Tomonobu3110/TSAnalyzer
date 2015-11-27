@@ -18,9 +18,9 @@ use PolsatPIS;
 #====================================================================
 my(@gen_pid_list);
 push(@gen_pid_list, 0x00); # PAT
-#push(@gen_pid_list, 0x10); # NIT
-#push(@gen_pid_list, 0x11); # SDT, BAT
-#push(@gen_pid_list, 0x12); # EIT
+push(@gen_pid_list, 0x10); # NIT
+push(@gen_pid_list, 0x11); # SDT, BAT
+push(@gen_pid_list, 0x12); # EIT
 push(@gen_pid_list, 0x14); # TOT/TDT
 
 my $check_version   = 1; # 0 ... no check, 1 ... check, 2 ... with log
